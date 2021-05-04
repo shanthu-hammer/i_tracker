@@ -5,7 +5,8 @@ import 'screens/auth_screens/signup.dart';
 import 'screens/collection.dart';
 import 'screens/dashboard.dart';
 import 'screens/investment.dart';
-
+//colors route
+import'constants/Theme/appcolors.dart';
 //todo deploying to google auth branch
 void main() {
   runApp(MyApp());

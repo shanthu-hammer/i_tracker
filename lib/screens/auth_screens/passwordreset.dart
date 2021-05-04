@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:i_tracker/constants/Theme/appcolors.dart';
+
 class PasswordReset extends StatefulWidget {
   @override
   _PasswordResetState createState() => _PasswordResetState();
@@ -8,7 +10,8 @@ class PasswordReset extends StatefulWidget {
 class _PasswordResetState extends State<PasswordReset> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return
+    Scaffold(
 
       //TODO "do the editing here"
 

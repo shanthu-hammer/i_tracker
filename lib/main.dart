@@ -6,7 +6,7 @@ import 'screens/collection.dart';
 import 'screens/dashboard.dart';
 import 'screens/investment.dart';
 
-//todo deploying to main branch
+//todo deploying to google auth branch
 void main() {
   runApp(MyApp());
 }

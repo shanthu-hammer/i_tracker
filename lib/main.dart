@@ -6,7 +6,7 @@ import 'screens/collection.dart';
 import 'screens/dashboard.dart';
 import 'screens/investment.dart';
 
-//todo Mainscreen testing
+//todo deploying to main branch
 void main() {
   runApp(MyApp());
 }

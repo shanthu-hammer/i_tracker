@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Investment(), //SignIn
+      home: SignIn(), //Investment
       routes: {
         //auth_screens
         '/signup': (context) => SignUp(),

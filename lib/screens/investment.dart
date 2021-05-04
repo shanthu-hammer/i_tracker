@@ -37,8 +37,8 @@ class _InvestmentState extends State<Investment> {
               TextFormField(
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    labelText: 'Description',
-                    hintText: '(optional)'),
+                    labelText: 'Description ',
+                    hintText: '(optional) Notes regarding investment '),
               ),
               SizedBox(
                 height: 25,
@@ -75,7 +75,7 @@ class _InvestmentState extends State<Investment> {
                     //ADD Route here
                   },
                   child: Text(
-                    'Login',
+                    'SAVE',
                     style: TextStyle(color: ThemeColor.background),
                   ),
                 ),

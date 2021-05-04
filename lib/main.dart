@@ -6,6 +6,7 @@ import 'screens/collection.dart';
 import 'screens/dashboard.dart';
 import 'screens/investment.dart';
 
+//todo Mainscreen
 void main() {
   runApp(MyApp());
 }

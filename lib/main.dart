@@ -6,7 +6,7 @@ import 'screens/collection.dart';
 import 'screens/dashboard.dart';
 import 'screens/investment.dart';
 
-//todo Mainscreen
+//todo Mainscreen testing
 void main() {
   runApp(MyApp());
 }

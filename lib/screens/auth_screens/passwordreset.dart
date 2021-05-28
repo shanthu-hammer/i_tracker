@@ -47,7 +47,11 @@ class ForgotPassword extends StatelessWidget {
                     style: TextStyle(color: ThemeColor.background),
                   ),
                   onPressed: () {
-
+                    //Navigator.pushNamed(context, '/');
+                    Navigator.popUntil(
+                        context,
+                        (Route<dynamic> predicate) =>
+                            predicate.isFirst); //todo new line
                   },
                 ),
               ),

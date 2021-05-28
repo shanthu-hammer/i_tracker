@@ -24,10 +24,10 @@ class MyApp extends StatelessWidget {
       routes: {
         //auth_screens
         '/signup': (context) => SignUp(),
-        '/passwordreset': (context) => PasswordReset(),
+        '/passwordreset': (context) => ForgotPassword(),
 
         //screens
-        '/collection': (context) => Collection_deatils(),
+        '/collection': (context) => Collection(),
         '/dashboard': (context) => Dashboard(),
         '/investment': (context) => Investment(),
       },

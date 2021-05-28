@@ -11,20 +11,32 @@ class _DashboardState extends State<Dashboard> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
-        child: FlatButton(
+      body: Column(children: <Widget>[
+        FlatButton(
           onPressed: () {
-            Navigator.of(context).pop();
-            // Navigator.pushNamed(context, '/dashboard');
+            //Navigator.of(context).pop();
+            Navigator.pushNamed(context, '/investment');
 
             //ADD Route here
           },
           child: Text(
-            'Login',
+            'Investment ',
             style: TextStyle(color: Colors.redAccent),
           ),
         ),
-      ),
+        FlatButton(
+          onPressed: () {
+            //Navigator.of(context).pop();
+            Navigator.pushNamed(context, '/collection');
+
+            //ADD Route here
+          },
+          child: Text(
+            'Collection ',
+            style: TextStyle(color: Colors.redAccent),
+          ),
+        ),
+      ]),
     );
   }
 }

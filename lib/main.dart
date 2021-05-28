@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'screens/auth_screens/passwordreset.dart';
+import 'package:i_tracker/screens/auth_screens/passwordreset.dart';
+
 import 'screens/auth_screens/signin.dart';
 import 'screens/auth_screens/signup.dart';
 import 'screens/collection.dart';
 import 'screens/dashboard.dart';
 import 'screens/investment.dart';
-
+//colors route
+import'constants/Theme/appcolors.dart';
 //todo deploying to google auth branch
 void main() {
   runApp(MyApp());
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         //auth_screens
         'screens/auth_screens/signup.dart': (context) => SignUp(),
-        'screens/auth_screens/passwordreset.dart': (context) => PasswordReset(),
+        'screens/auth_screens/passwordreset.dart': (context) => ForgotPassword(),
 
         //screens
         'screens/collection.dart': (context) => Collection_deatils(),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//TODO we need to select the colors for the app from here
+//TODO id , password
 class ThemeColor {
   static const background = Colors.white;
   static const button = Colors.blueAccent;

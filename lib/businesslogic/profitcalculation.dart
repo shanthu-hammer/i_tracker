@@ -15,7 +15,8 @@ class CollectionCalc {
     double _initialAmount = 120.10; //TODO fetch this from DB
     double _finalAmount = 120.10; //TODO fetch this from DB
     double amountDifference = _finalAmount - _initialAmount;
-    //DB where Id = investID
+    //DB where Id = investID set P&L as amountDifference
     return amountDifference;
   }
+
 }

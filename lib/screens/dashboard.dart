@@ -9,7 +9,7 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
-  CollectionCalc C = new CollectionCalc();
+  // CollectionCalc C = new CollectionCalc();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,9 +42,6 @@ class _DashboardState extends State<Dashboard> {
         FlatButton(
           onPressed: () {
             //Navigator.of(context).pop();
-
-            AgeDuration difference = C.DateCalc(1990);
-            print(difference);
 
             //ADD Route here
           },
